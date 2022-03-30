@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 
 export default function Get() {
-    const [origintext, originUpdate ] = useState('먼저내가 있을께');
+    const [origintext, originUpdate ] = useState('선');
 
     useEffect( async () => {
         // await axios.get('/getsend', {}).then(
